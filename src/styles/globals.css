@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pageNum {
+  @apply pt-0.5 border-2 border-[#8D8D8D80] rounded-[50%] text-center text-[#8D8D8D80];
+}
+.pageNumAction {
+  @apply pt-1 bg-[#55A3F0] rounded-[50%] text-center text-white;
+}
+.myShadow {
+  text-shadow: -11px 9px 9px rgba(159, 161, 164, 0.5);
+}
+.myShadow404 {
+  text-shadow: -7px 5px 5px rgba(49, 58, 64, 0.5);
+}
+.myGrid14 {
+  grid-template-columns: repeat(14, minmax(0, 1fr));
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
