@@ -103,7 +103,6 @@ function LoginPage() {
             </form>
             <Link
               href="/registration"
-              state={{ form }}
               className="text-sm leading-6 font-medium text-[#3a8bed] hover:text-[#3a8bed]/70 transition-all delay-75 "
             >
               ایجاد حساب کاربری!

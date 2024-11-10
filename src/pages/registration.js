@@ -9,7 +9,11 @@ function RegistrationPage() {
   const [passwordType, setPasswordType] = useState([true, true]);
   const { push } = useRouter();
 
-
+  const [form, setForm] = useState({
+    username: "",
+    password: "",
+    confirmPassword: "",
+  });
 
   const { mutate } = useRegister();
 
